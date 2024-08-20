@@ -1,5 +1,5 @@
 {% set name = "impl" %}
-{% set version = "1.2.0" %}
+{% set version = "1.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/josharian/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 1a5e02e396c4d60811780af4de44ba25ff96d851d240f8b39c2086def5ecfd6d
+  sha256: fcc2344f5386583a2cfda9b0830e347eb6e8b946c0b3e3260bbb4b8479eb2c25
 
 build:
   number: 0
